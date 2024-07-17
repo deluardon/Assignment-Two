@@ -58,7 +58,7 @@ header {
 .banner-conatiner {
   display: flex;
   justify-content: space-between;
-  padding: 5rem 4rem 0rem 4rem;
+  padding: 5rem 8rem 0rem 4rem;
   /* border: 2px solid tomato; */
   width: 100%;
   gap: 5rem;
@@ -126,8 +126,8 @@ header {
 .banner-card {
   /* border: 2px solid #e6533c; */
   position: absolute;
-  left: 15rem;
-  top: 12rem;
+  left: 18rem;
+  top: 10rem;
   width: 200px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -194,8 +194,34 @@ main {
   .banner-img-container img{
     width: 100%;
   }
-  
+  .banner-card {
+    /* border: 2px solid #e6533c; */
+    position: absolute;
+    left: 18rem;
+    top: 10rem;
+    width: 200px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 16px 32px;
+  }
+  .banner-card2 {
 
+    bottom: 5rem;
+    right: 1rem;
+    padding: 10px 20px;
+    
+  }
+  .circle i{
+    font-size: 20px;
+    color: #e6533c;
+  
+  
+  }
+  
+}
  
 /* Responsive tab view */
 
@@ -217,5 +243,4 @@ main {
   .menu {
     display: none;
   }
-}
 }
