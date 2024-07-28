@@ -30,6 +30,8 @@ header {
 .navbar > li a {
   text-decoration: none;
   color: #fc7100;
+  font-size: 32px;
+  font-weight: 800;
 }
 .navbar ul {
   display: flex;
@@ -116,9 +118,7 @@ header {
 .banner-img {
   position: relative;
 }
-.fa-circle {
-  display: none;
-}
+
 .banner-info {
   color: white;
 }
@@ -389,11 +389,11 @@ td {
 .form-container p {
   padding-bottom: 50px;
 }
-.input-container-1{
+.input-container-1 {
   display: flex;
   gap: 10px;
 }
-.input-container-1 input{
+.input-container-1 input {
   border-radius: 8px;
   border: none;
   height: 40px;
@@ -402,12 +402,12 @@ td {
   color: white;
   background: rgba(255, 255, 255, 0.1);
 }
-.input-container-2{
+.input-container-2 {
   margin-top: 10px;
   display: flex;
   gap: 10px;
 }
-.input-container-2 input{
+.input-container-2 input {
   border-radius: 8px;
   border: none;
   height: 40px;
@@ -416,7 +416,7 @@ td {
   color: white;
   background: rgba(255, 255, 255, 0.1);
 }
-.from-input{
+.from-input {
   margin-top: 10px;
   border-radius: 8px;
   border: none;
@@ -426,9 +426,9 @@ td {
   color: white;
   background: rgba(255, 255, 255, 0.1);
 }
-.form-container button{
+.form-container button {
   margin-top: 20px;
-  background-color: #E6533C;
+  background-color: #e6533c;
   padding: 10px 50px;
   color: white;
   border: none;
@@ -437,6 +437,99 @@ td {
 }
 /* meet section start here */
 
+.meet-section{
+  color: white;
+}
+.meet-card-main-container {
+
+
+  width: 100%;
+
+}
+.meet-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+ margin: 20px;
+ padding: 20px;
+ border-radius: 18px;
+ row-gap: 20px;
+}
+.meet-card-1 {
+  border-radius: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer1.png") lightgray 50% / cover no-repeat;
+  height: 372px;
+  background-position: center;
+  background-size: cover;
+}
+.meet-card-2 {
+  border-radius: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer2.png") lightgray 50% / cover no-repeat;
+  height: 372px;
+  background-position: center;
+  background-size: cover;
+}
+.meet-card-3 {
+  border-radius: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer3.png") lightgray 50% / cover no-repeat;
+  height: 372px;
+  background-position: center;
+  background-size: cover;
+}
+.meet-card-4 {
+  border-radius: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer4.png") lightgray 50% / cover no-repeat;
+  height: 372px;
+  background-position: center;
+  background-size: cover;
+}
+.meet-card-5 {
+  border-radius: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer5.png") lightgray 50% / cover no-repeat;
+  height: 372px;
+  background-position: center;
+  background-size: cover;
+}
+.meet-card-6 {
+  border-radius: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer6.png") lightgray 50% / cover no-repeat;
+  height: 372px;
+  background-position: center;
+  background-size: cover;
+
+
+}
 /* media query */
 
 /* Responsive moblie view */
@@ -516,12 +609,7 @@ td {
   .banenr-card-one small {
     font-size: 10px;
   }
-  .fa-circle {
-    display: none;
-  }
-  .fa-circle-play {
-    display: block;
-  }
+
   .banenr-card-two small {
     font-size: 10px;
   }
@@ -530,9 +618,21 @@ td {
   }
 
   /* calculator section */
-  .Calculator-container{
+  .Calculator-container {
     flex-direction: column;
     padding: 0px 20px;
+  }
+
+  /* meet section */
+  .meet-card-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .meet-card-1{
+    display: none;
+  }
+  .meet-card-4{
+    display: none;
   }
 }
 
@@ -584,5 +684,22 @@ td {
   }
   .trainings-section br {
     display: none;
+  }
+
+
+  .meet-section{
+    color: white;
+  }
+  .meet-card-main-container {
+  
+  
+    width: 100%;
+  
+  }
+  .meet-card-container {
+  
+   margin: 20px;
+   padding: 20px;
+  gap: 30px;
   }
 }
