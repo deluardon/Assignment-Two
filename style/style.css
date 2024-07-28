@@ -85,9 +85,7 @@ header {
   backdrop-filter: blur(10px);
   padding: 10px 10px;
 }
-.fa-circle-play {
-  display: none;
-}
+
 .banenr-card-one i {
   color: #fc7100;
   font-size: 30px;
@@ -405,7 +403,9 @@ main {
   .banenr-card-one small {
     font-size: 10px;
   }
-
+  .fa-circle{
+    display: none;
+  }
   .fa-circle-play {
     display: block;
   }
@@ -439,6 +439,9 @@ main {
   .fa-circle {
     display: block;
   }
+  .fa-circle-play {
+    display: none;
+  }
   /* tarinings section */
 }
 
@@ -453,5 +456,8 @@ main {
   }
   .fa-circle {
     display: block;
+  }
+  .fa-circle-play {
+    display: none;
   }
 }
