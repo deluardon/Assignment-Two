@@ -240,15 +240,60 @@ main {
 }
 
 /* trainings section style here */
+.trainings-section{
+  margin: 0px 20px;
+}
+.trainings-card-container{
+  display: grid;
+  grid-template-columns: 0.75fr 1fr 0.5fr;
+}
+.trainings-card1{
+  background: linear-gradient(0deg, rgba(6, 255, 210, 0.50) 0%, rgba(6, 255, 210, 0.50) 100%), url("../images//exercise1.jpg") lightgray 50% / cover no-repeat; ;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  
+}
+.trainings-card2{
+  background-color: #25160a;
+  background-image: url("../images/exercise2.png");
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+.trainings-card3{
+  background-color: #645a51;
+  background-image: url("../images/exercise3.png");
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
 
-.card-1 {
-  border: 2px solid tomato;
+.trainings-card-container-two{
+  display: grid;
+  grid-template-columns: 1fr 0.75fr 0.90fr;
+
 }
-.card-2 {
-  border: 2px solid tomato;
+.trainings-two-card-1{
+  background-color: #fc7100;
+  height: 200px;
+  background-image: url("../images/exercise4.png");
+  background-position: center;
+  background-size: cover;
 }
-.card-3 {
-  border: 2px solid tomato;
+.trainings-two-card-2{
+  background-color: #fc7100;
+  height: 200px;
+  background-image: url("../images/exercise5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.trainings-two-card-3{
+  background-color: #fc7100;
+  height: 200px;
+  background-image: url("../images/exercise6.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 /* meet section start here */
@@ -291,10 +336,18 @@ main {
   }
 
   /* trainings section */
-  .trainings-card-container {
-    grid-template-columns: repeat(2, 1fr);
+  .trainings-card3{
+    display: none;
   }
-
+  .trainings-card-container{
+    grid-template-columns: 1fr 0.80fr;
+  }
+  .trainings-card-container-two{
+    grid-template-columns: 0.80fr 1fr;
+  }
+  .trainings-two-card-3{
+    display: none;
+  }
   /* meet container */
 
   .banner-container {
