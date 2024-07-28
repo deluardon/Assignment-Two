@@ -439,23 +439,29 @@ td {
 
 .meet-section{
   color: white;
+  text-align: center;
 }
-.meet-card-main-container {
-
-
-  width: 100%;
-
+.meet-card-container-child{
+  width: 95%;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.1);
 }
+
 .meet-card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   color: white;
-  background: rgba(255, 255, 255, 0.1);
+
  margin: 20px;
  padding: 20px;
  border-radius: 18px;
  row-gap: 20px;
 }
+.meet-info{
+  text-align: left;
+  margin-top: 50%;
+}
+
 .meet-card-1 {
   border-radius: 18px;
   background: linear-gradient(
@@ -530,6 +536,71 @@ td {
 
 
 }
+
+
+
+footer{
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.10);
+}
+
+.footer-conatiner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 100px;
+  gap: 50px;
+}
+.footer-links h1{
+  color: white;
+  margin-bottom: 20px;
+}
+.footer-links a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+}
+footer hr{
+  width: 90%;
+  margin: auto;
+  stroke: rgba(255, 255, 255, 0.10);
+  height: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+margin-bottom:20px;
+
+}
+footer small{
+  color: rgba(255, 255, 255, 0.50);
+font-size: 10px;
+font-weight: 400;
+letter-spacing: 0.5px;
+line-height: 24px;
+}
+.footer-end{
+  text-align: center;
+}
+.footer-info h1{
+  color: #e6533c;
+
+font-size: 70px;
+font-style: italic;
+font-weight: 800;
+line-height: 120%;
+  margin-bottom: 20px;
+}
+.footer-info small{
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+
+.fa-circle-play{
+  display: none;
+}
 /* media query */
 
 /* Responsive moblie view */
@@ -603,7 +674,7 @@ td {
     width: 150px;
     height: 74px;
     left: 25px;
-    bottom: 220px;
+    bottom: 200px;
     gap: 10px;
   }
   .banenr-card-one small {
@@ -633,6 +704,21 @@ td {
   }
   .meet-card-4{
     display: none;
+  }
+
+  .footer-conatiner{
+    flex-direction: column;
+    padding: 70px 20px;
+  }
+  .footer-links{
+    text-align: left;
+    margin-right: 150px;
+  }
+  .fa-circle{
+    display: none;
+  }
+  .fa-circle-play{
+    display: block;
   }
 }
 
@@ -676,12 +762,7 @@ td {
   .card-4 {
     display: none;
   }
-  .fa-circle {
-    display: block;
-  }
-  .fa-circle-play {
-    display: none;
-  }
+  
   .trainings-section br {
     display: none;
   }
@@ -697,9 +778,10 @@ td {
   
   }
   .meet-card-container {
-  
+    gap: 20px;
    margin: 20px;
    padding: 20px;
-  gap: 30px;
+ 
   }
 }
+
