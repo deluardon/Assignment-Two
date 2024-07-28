@@ -741,12 +741,7 @@ line-height: 120%;
   .run-info {
     flex: 1;
   }
-  .fa-circle {
-    display: block;
-  }
-  .fa-circle-play {
-    display: none;
-  }
+ 
   /* tarinings section */
   .trainings-section br {
     display: none;
