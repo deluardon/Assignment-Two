@@ -85,7 +85,7 @@ header {
   backdrop-filter: blur(10px);
   padding: 10px 10px;
 }
-.fa-circle-play{
+.fa-circle-play {
   display: none;
 }
 .banenr-card-one i {
@@ -114,24 +114,24 @@ header {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   padding: 10px 10px;
-
 }
 .banner-img {
   position: relative;
 }
+.fa-circle {
+  display: none;
+}
 .banner-info {
   color: white;
 }
-.banenr-card-two h3{
+.banenr-card-two h3 {
   color: white;
   font-size: 24px;
   font-weight: 900;
 }
-.banenr-card-two small{
+.banenr-card-two small {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.65);
-
-
 }
 .banner-info h1 {
   padding-bottom: 10px;
@@ -240,58 +240,86 @@ main {
 }
 
 /* trainings section style here */
-.trainings-section{
+.trainings-section {
   margin: 0px 20px;
 }
-.trainings-card-container{
+.trainings-card-container {
   display: grid;
-  grid-template-columns: 0.75fr 1fr 0.5fr;
+  grid-template-columns: 0.75fr 1fr 0.75fr;
 }
-.trainings-card1{
-  background: linear-gradient(0deg, rgba(6, 255, 210, 0.50) 0%, rgba(6, 255, 210, 0.50) 100%), url("../images//exercise1.jpg") lightgray 50% / cover no-repeat; ;
+.trainings-card1 {
+  background: linear-gradient(
+      0deg,
+      rgba(6, 255, 210, 0.5) 0%,
+      rgba(6, 255, 210, 0.5) 100%
+    ),
+    url("../images//exercise1.jpg") lightgray 50% / cover no-repeat;
   height: 200px;
   background-position: center;
   background-size: cover;
-  
 }
-.trainings-card2{
+.trainings-card2 {
   background-color: #25160a;
-  background-image: url("../images/exercise2.png");
+  background: linear-gradient(
+      0deg,
+      rgba(255, 0, 0, 0.3) 0%,
+      rgba(255, 0, 0, 0.3) 100%
+    ),
+    url("../images//exercise2.png") lightgray -0.336px 0px / 100.125% 111.811% no-repeat;
   height: 200px;
   background-position: center;
   background-size: cover;
 }
-.trainings-card3{
+.trainings-card3 {
   background-color: #645a51;
-  background-image: url("../images/exercise3.png");
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("../images//exercise3.png") lightgray 50% / cover no-repeat;
   height: 200px;
   background-position: center;
   background-size: cover;
 }
 
-.trainings-card-container-two{
+.trainings-card-container-two {
   display: grid;
-  grid-template-columns: 1fr 0.75fr 0.90fr;
-
+  grid-template-columns: 1fr 0.75fr 0.75fr;
 }
-.trainings-two-card-1{
+.trainings-two-card-1 {
   background-color: #fc7100;
   height: 200px;
-  background-image: url("../images/exercise4.png");
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("../images//exercise4.png") lightgray 50% / cover no-repeat;
   background-position: center;
   background-size: cover;
 }
-.trainings-two-card-2{
+.trainings-two-card-2 {
   background-color: #fc7100;
   height: 200px;
-  background-image: url("../images/exercise5.jpg");
+  background: linear-gradient(
+      0deg,
+      rgba(66, 255, 0, 0.3) 0%,
+      rgba(66, 255, 0, 0.3) 100%
+    ),
+    url("../images//exercise5.jpg") lightgray 50% / cover no-repeat;
   background-position: center;
   background-size: cover;
 }
-.trainings-two-card-3{
+.trainings-two-card-3 {
   background-color: #fc7100;
   height: 200px;
-  background-image: url("../images/exercise6.jpg");
+  background: linear-gradient(
+      0deg,
+      rgba(0, 71, 255, 0.3) 0%,
+      rgba(0, 71, 255, 0.3) 100%
+    ),
+    url("../images//exercise6.jpg") lightgray 50% / cover no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -336,16 +364,16 @@ main {
   }
 
   /* trainings section */
-  .trainings-card3{
+  .trainings-card3 {
     display: none;
   }
-  .trainings-card-container{
-    grid-template-columns: 1fr 0.80fr;
+  .trainings-card-container {
+    grid-template-columns: 1fr 0.8fr;
   }
-  .trainings-card-container-two{
-    grid-template-columns: 0.80fr 1fr;
+  .trainings-card-container-two {
+    grid-template-columns: 0.8fr 1fr;
   }
-  .trainings-two-card-3{
+  .trainings-two-card-3 {
     display: none;
   }
   /* meet container */
@@ -361,13 +389,13 @@ main {
     text-align: left;
     margin-left: 10px;
   }
-  .banenr-card-two{
+  .banenr-card-two {
     top: 50px;
     right: 15px;
     width: 145px;
     height: 74px;
   }
-  .banenr-card-one{
+  .banenr-card-one {
     width: 150px;
     height: 74px;
     left: 25px;
@@ -377,11 +405,8 @@ main {
   .banenr-card-one small {
     font-size: 10px;
   }
-  .fa-circle{
-    display: none;
 
-  }
-  .fa-circle-play{
+  .fa-circle-play {
     display: block;
   }
   .banenr-card-two small {
@@ -411,6 +436,9 @@ main {
   .run-info {
     flex: 1;
   }
+  .fa-circle {
+    display: block;
+  }
   /* tarinings section */
 }
 
@@ -422,5 +450,8 @@ main {
   }
   .card-4 {
     display: none;
+  }
+  .fa-circle {
+    display: block;
   }
 }
