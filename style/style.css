@@ -240,8 +240,15 @@ main {
 /* trainings section style here */
 .trainings-section {
   margin: 0px 20px;
+  color: white;
 }
+.trainings-section h1 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
 .trainings-card-container {
+  padding-top: 50px;
   display: grid;
   grid-template-columns: 0.75fr 1fr 0.75fr;
 }
@@ -321,7 +328,113 @@ main {
   background-position: center;
   background-size: cover;
 }
+.trainings-two-card-3 p {
+  margin: 35% 30px;
+}
+.trainings-two-card-2 p {
+  margin: 35% 30px;
+}
+.trainings-two-card-1 p {
+  margin-top: 20px;
+  margin-left: 50%;
+}
+.trainings-card1 p {
+  margin: 35% 20px;
+}
+.trainings-card2 p {
+  margin: 20px;
+}
+.trainings-card3 p {
+  margin: 35% 20px;
+}
 
+/* table section start here */
+
+.table-section {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  width: 100%;
+}
+.table-container table,
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.table-container table th {
+  color: white;
+}
+.table-container h1 {
+  text-align: left;
+  padding: 50px 0px;
+}
+
+.Calculator-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #222;
+  margin: 50px 0px;
+  padding: 50px 150px;
+}
+.form-container {
+  text-align: left;
+}
+.form-container h1 {
+  padding: 20px 0px;
+}
+.form-container p {
+  padding-bottom: 50px;
+}
+.input-container-1{
+  display: flex;
+  gap: 10px;
+}
+.input-container-1 input{
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  padding: 0px 10px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+.input-container-2{
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.input-container-2 input{
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  padding: 0px 10px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+.from-input{
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  padding: 0px 10px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+.form-container button{
+  margin-top: 20px;
+  background-color: #E6533C;
+  padding: 10px 50px;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  margin-bottom: 50px;
+}
 /* meet section start here */
 
 /* media query */
@@ -403,7 +516,7 @@ main {
   .banenr-card-one small {
     font-size: 10px;
   }
-  .fa-circle{
+  .fa-circle {
     display: none;
   }
   .fa-circle-play {
@@ -414,6 +527,12 @@ main {
   }
   .banner-main-container {
     padding-left: 16px;
+  }
+
+  /* calculator section */
+  .Calculator-container{
+    flex-direction: column;
+    padding: 0px 20px;
   }
 }
 
@@ -443,6 +562,9 @@ main {
     display: none;
   }
   /* tarinings section */
+  .trainings-section br {
+    display: none;
+  }
 }
 
 /* Responsive desktop view */
@@ -458,6 +580,9 @@ main {
     display: block;
   }
   .fa-circle-play {
+    display: none;
+  }
+  .trainings-section br {
     display: none;
   }
 }
