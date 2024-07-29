@@ -157,6 +157,15 @@ header {
   background-color: #fc7100;
   border: none;
 }
+
+.banner-circle span{
+  background-color: #e6533c;
+  padding: 0.5rem 1rem;
+  border-radius: 300%;
+}
+.banner-circle img{
+  display: none;
+}
 /* banner section style end here */
 
 /* main section style here */
@@ -194,6 +203,22 @@ main {
 }
 .card-img-container img {
   border-radius: 100px;
+}
+.card-small{
+  color: rgba(255, 255, 255, 0.50);
+
+
+}
+.card-tittle{
+  color: #FFF;
+  padding-top: 4rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
+}
+.card-description{
+  color: rgba(255, 255, 255, 0.50);
+
 }
 
 /* card sectaion-end here  */
@@ -435,6 +460,19 @@ td {
   border-radius: 40px;
   margin-bottom: 50px;
 }
+.form-container > input{
+  background: rgba(255, 255, 255, 0.1);
+  background-image: url("../images/chevron-down.png");
+  background-repeat: no-repeat;
+ background-position: right;
+}
+.input-container-2 :nth-child(2) {
+  background: rgba(255, 255, 255, 0.1);
+  background-image: url("../images/chevron-down.png");
+  background-repeat: no-repeat;
+ background-position: right;
+}
+
 /* meet section start here */
 
 .meet-section{
@@ -686,6 +724,12 @@ line-height: 120%;
   }
   .banner-main-container {
     padding-left: 16px;
+  }
+  .banner-circle span {
+    display: none;
+  }
+  .banner-circle img{
+    display: block;
   }
 
   /* calculator section */
