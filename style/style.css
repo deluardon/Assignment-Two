@@ -133,13 +133,26 @@ header {
 }
 .banner-info h1 {
   padding-bottom: 10px;
+  color: #fff;
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 120%;
 }
 .banner-info h1 span {
   color: #fff;
   font-family: Miama;
+  color: #fff;
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 120%;
 }
-.banner-info small {
+.banner-info p {
   padding-bottom: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
 .banner-btn-two {
   padding: 10px 20px;
@@ -158,12 +171,12 @@ header {
   border: none;
 }
 
-.banner-circle span{
+.banner-circle span {
   background-color: #e6533c;
   padding: 0.5rem 1rem;
   border-radius: 300%;
 }
-.banner-circle img{
+.banner-circle img {
   display: none;
 }
 /* banner section style end here */
@@ -204,21 +217,18 @@ main {
 .card-img-container img {
   border-radius: 100px;
 }
-.card-small{
-  color: rgba(255, 255, 255, 0.50);
-
-
+.card-small {
+  color: rgba(255, 255, 255, 0.5);
 }
-.card-tittle{
-  color: #FFF;
+.card-tittle {
+  color: #fff;
   padding-top: 4rem;
   font-size: 2.5rem;
   font-weight: 800;
   padding-bottom: 1rem;
 }
-.card-description{
-  color: rgba(255, 255, 255, 0.50);
-
+.card-description {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* card sectaion-end here  */
@@ -249,17 +259,30 @@ main {
   /* flex: 1; */
 }
 .run-info h1 {
-  color: white;
   padding-bottom: 10px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
 }
 .run-info small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
 }
 .run-info > div button {
   background-color: #fc7100;
-  padding: 10px 20px;
+  padding: 10px 3rem;
   border-radius: 20px;
   margin-top: 20px;
   border: none;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
 }
 
 /* trainings section style here */
@@ -270,6 +293,19 @@ main {
 .trainings-section h1 {
   padding-top: 50px;
   padding-bottom: 20px;
+}
+.trainings-section > h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  padding-left: 1.5rem;
+}
+.trainings-section > small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
 }
 
 .trainings-card-container {
@@ -381,6 +417,23 @@ main {
   margin-top: 100px;
   width: 100%;
 }
+.table-section > h1 {
+  text-align: left;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 120%;
+  padding-left: 4rem;
+  padding-bottom: 1rem;
+}
+.table-section > p {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 4rem;
+  letter-spacing: 0.3px;
+}
 .table-container table,
 th,
 td {
@@ -460,26 +513,26 @@ td {
   border-radius: 40px;
   margin-bottom: 50px;
 }
-.form-container > input{
+.form-container > input {
   background: rgba(255, 255, 255, 0.1);
   background-image: url("../images/chevron-down.png");
   background-repeat: no-repeat;
- background-position: right;
+  background-position: right;
 }
 .input-container-2 :nth-child(2) {
   background: rgba(255, 255, 255, 0.1);
   background-image: url("../images/chevron-down.png");
   background-repeat: no-repeat;
- background-position: right;
+  background-position: right;
 }
 
 /* meet section start here */
 
-.meet-section{
+.meet-section {
   color: white;
   text-align: center;
 }
-.meet-card-container-child{
+.meet-card-container-child {
   width: 95%;
   margin: 50px auto;
   background: rgba(255, 255, 255, 0.1);
@@ -490,12 +543,12 @@ td {
   grid-template-columns: repeat(3, 1fr);
   color: white;
 
- margin: 20px;
- padding: 20px;
- border-radius: 18px;
- row-gap: 20px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 18px;
+  row-gap: 20px;
 }
-.meet-info{
+.meet-info {
   text-align: left;
   margin-top: 50%;
 }
@@ -571,72 +624,66 @@ td {
   height: 372px;
   background-position: center;
   background-size: cover;
-
-
 }
 
-
-
-footer{
+footer {
   margin-top: 50px;
-  background: rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.1);
 }
 
-.footer-conatiner{
+.footer-conatiner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 70px 100px;
   gap: 50px;
 }
-.footer-links h1{
+.footer-links h1 {
   color: white;
   margin-bottom: 20px;
 }
-.footer-links a{
+.footer-links a {
   display: block;
   text-decoration: none;
   color: white;
   margin-bottom: 20px;
 }
-footer hr{
+footer hr {
   width: 90%;
   margin: auto;
-  stroke: rgba(255, 255, 255, 0.10);
+  stroke: rgba(255, 255, 255, 0.1);
   height: 0px;
-  border: 1px solid rgba(255, 255, 255, 0.10);
-margin-bottom:20px;
-
-}
-footer small{
-  color: rgba(255, 255, 255, 0.50);
-font-size: 10px;
-font-weight: 400;
-letter-spacing: 0.5px;
-line-height: 24px;
-}
-.footer-end{
-  text-align: center;
-}
-.footer-info h1{
-  color: #e6533c;
-
-font-size: 70px;
-font-style: italic;
-font-weight: 800;
-line-height: 120%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   margin-bottom: 20px;
 }
-.footer-info small{
-  color: rgba(255, 255, 255, 0.50);
+footer small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.footer-end {
+  text-align: center;
+}
+.footer-info h1 {
+  color: #e6533c;
+
+  font-size: 70px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+.footer-info small {
+  color: rgba(255, 255, 255, 0.5);
   font-size: 10px;
   font-weight: 400;
   letter-spacing: 0.5px;
   line-height: 24px;
 }
 
-
-.fa-circle-play{
+.fa-circle-play {
   display: none;
 }
 /* media query */
@@ -725,10 +772,20 @@ line-height: 120%;
   .banner-main-container {
     padding-left: 16px;
   }
+  .banner-info h1 {
+    padding-bottom: 10px;
+    font-size: 4rem;
+  }
+  .banner-info h1 span {
+    font-size: 4rem;
+  }
+  .banner-info p {
+    padding: 0rem 1rem;
+  }
   .banner-circle span {
     display: none;
   }
-  .banner-circle img{
+  .banner-circle img {
     display: block;
   }
 
@@ -738,30 +795,39 @@ line-height: 120%;
     padding: 0px 20px;
   }
 
+  /* table section */
+  .table-section > h1 {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+  .table-section > p {
+    padding-left: 2rem;
+  }
+
   /* meet section */
-  .meet-card-container{
+  .meet-card-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .meet-card-1{
+  .meet-card-1 {
     display: none;
   }
-  .meet-card-4{
+  .meet-card-4 {
     display: none;
   }
 
-  .footer-conatiner{
+  .footer-conatiner {
     flex-direction: column;
     padding: 70px 20px;
   }
-  .footer-links{
+  .footer-links {
     text-align: left;
     margin-right: 150px;
   }
-  .fa-circle{
+  .fa-circle {
     display: none;
   }
-  .fa-circle-play{
+  .fa-circle-play {
     display: block;
   }
 }
@@ -785,7 +851,7 @@ line-height: 120%;
   .run-info {
     flex: 1;
   }
- 
+
   /* tarinings section */
   .trainings-section br {
     display: none;
@@ -801,26 +867,20 @@ line-height: 120%;
   .card-4 {
     display: none;
   }
-  
+
   .trainings-section br {
     display: none;
   }
 
-
-  .meet-section{
+  .meet-section {
     color: white;
   }
   .meet-card-main-container {
-  
-  
     width: 100%;
-  
   }
   .meet-card-container {
     gap: 20px;
-   margin: 20px;
-   padding: 20px;
- 
+    margin: 20px;
+    padding: 20px;
   }
 }
-
