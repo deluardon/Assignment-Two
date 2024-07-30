@@ -552,6 +552,19 @@ td {
   text-align: left;
   margin-top: 50%;
 }
+.meet-info {
+  padding-top: 7rem;
+  margin-left: 1rem;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 120%;
+}
+.meet-info small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+}
 
 .meet-card-1 {
   border-radius: 18px;
@@ -645,7 +658,8 @@ footer {
 .footer-links a {
   display: block;
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
+
   margin-bottom: 20px;
 }
 footer hr {
@@ -687,7 +701,7 @@ footer small {
   display: none;
 }
 /* team section */
-.meat-section{
+.meat-section {
   width: 100%;
   background-color: #000000;
   text-align: center;
@@ -695,70 +709,69 @@ footer small {
   color: white;
   /* box-shadow: 10px 10px 5px rgb(76, 76, 77) */
 }
-.meat-section hr{
+.meat-section hr {
   width: 8rem;
   margin: 1rem auto;
   color: #49df04;
 }
-.meat-section p{
+.meat-section p {
   padding-top: 2rem;
   padding-bottom: 2rem;
   line-height: 2rem;
   color: #b6b6b6;
 }
-.team-card-container{
+.team-card-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);;
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   color: white;
   /* margin:1rem 1rem; */
 }
 
-.team-card-1{
- width: 300px;
- background-color: #000000;
- margin: auto;
+.team-card-1 {
+  width: 300px;
+  background-color: #000000;
+  margin: auto;
   border-radius: 10px;
   opacity: 0.5;
-
- 
 }
-.team-card-1:hover{
+.team-card-1:hover {
   box-shadow: 10px 10px 5px rgb(39, 39, 39);
   background-color: #49df04;
   opacity: 1;
 }
-.team-card-1 h1{
+.team-card-1 h1 {
   padding-top: 1rem;
   text-align: left;
   color: #c2c2c2;
 }
-.team-card-1 p{
+.team-card-1 p {
   text-align: left;
   padding-top: 0.5rem;
   color: #807f7f;
   font-size: 16px;
 }
 
-.team-card-1 img{
+.team-card-1 img {
   width: 100%;
   /* padding: 1rem; */
   border-radius: 0.5rem;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+.meet-title{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%; 
+    }
+    .meet-description {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px; 
+      letter-spacing: 0.3px;
+      margin-top: 20px;
+    }
 /* media query */
 
 /* Responsive moblie view */
@@ -905,14 +918,14 @@ footer small {
   }
 
   /* team section */
-  .team-card-container{
+  .team-card-container {
     display: grid;
-    grid-template-columns: repeat(1,1fr);;
+    grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
     color: white;
     /* margin:1rem 1rem; */
   }
-  .meat-section p{
+  .meat-section p {
     padding: 0 1rem;
   }
 }
@@ -945,7 +958,7 @@ footer small {
   .run-info {
     flex: 1;
   }
-  .run-img img{
+  .run-img img {
   }
 
   /* tarinings section */
@@ -976,6 +989,7 @@ footer small {
   .meet-section {
     color: white;
   }
+
   .meet-card-main-container {
     width: 100%;
   }
