@@ -466,6 +466,14 @@ td {
 }
 .form-container p {
   padding-bottom: 50px;
+  
+}
+.form-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
 }
 .input-container-1 {
   display: flex;
@@ -758,20 +766,25 @@ footer small {
   border-radius: 0.5rem;
 }
 
-
-.meet-title{
+.meet-title {
   font-size: 48px;
   font-weight: 900;
-  line-height: 120%; 
-    }
-    .meet-description {
-      color: rgba(255, 255, 255, 0.5);
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 24px; 
-      letter-spacing: 0.3px;
-      margin-top: 20px;
-    }
+  line-height: 120%;
+}
+.meet-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-top: 20px;
+}
+
+
+
+.trainings-small{
+  margin-left: 2rem;
+}
 /* media query */
 
 /* Responsive moblie view */
