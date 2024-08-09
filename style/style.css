@@ -835,6 +835,10 @@ footer small {
   .trainings-two-card-3 {
     display: none;
   }
+  .trainings-section p{
+    display: none;
+  }
+
   /* meet container */
 
   .banner-container {
