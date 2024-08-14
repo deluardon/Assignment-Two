@@ -945,6 +945,12 @@ footer small {
   .meat-section p {
     padding: 0 1rem;
   }
+  .run-img img {
+    /* width:500px ; */
+    object-fit: none;
+    object-position: 68% 30%;
+    width: 100%;
+  }
 }
 
 /* Responsive tab view */
@@ -958,6 +964,11 @@ footer small {
   }
   .run-img img {
     /* width:500px ; */
+    object-fit: none;
+    object-position: 65% 30%;
+    width: 100%;
+  }
+  .run-img{
     width: 100%;
   }
   .run-sectaion {
@@ -986,6 +997,10 @@ footer small {
   .banner-container {
     flex-direction: column;
     gap: 6rem;
+  }
+
+  .team-card-container{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
